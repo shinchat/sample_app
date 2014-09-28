@@ -1,0 +1,32 @@
+development:
+  adapter: mysql2
+  database: dev_sample
+  username: dev_user
+  password: 8w8RSn5iV0TfAfEc
+  host: 172.16.221.78
+  port: 3306
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+
+test:
+  adapter: mysql2
+  database: test_sample
+  username: test_user
+  password: DS7j3oMGxjm/npxm
+  host: 172.16.221.78
+  port: 3306
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+
+production:
+  adapter: mysql2
+  database: prod_sample
+  username: prod_user
+  password: upYCSPvYBQdsZtuY
+  host: 172.16.221.78
+  port: 3306
+  pool: 5
+  timeout: 5000
+  encoding: utf8
